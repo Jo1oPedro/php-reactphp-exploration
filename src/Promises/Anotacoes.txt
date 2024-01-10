@@ -1,0 +1,11 @@
+Status de promises:
+    - Pending: promise começa nesse estado, por que o valor dela ainda é desconhecido
+    - Fulfilled: a promise recebeu o valor do proceso
+    - Rejected: Ocorreu um problema durante a execução
+    - É possível ir de Pending para qualquer outro estado, mas não é possível sair de um estado final(fulfilled, rejected)
+
+Vantagem de utilizar promises:
+    - É possível separar o processo do consumidor
+    - É possível encadear promises
+    - Promises protegem contra exceções não tratadas, uma exceção lançada em uma promisse é sempre exibida
+    - É possível escrever código assincrono de forma sincrona
