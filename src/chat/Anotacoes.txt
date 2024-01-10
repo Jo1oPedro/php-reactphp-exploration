@@ -1,0 +1,5 @@
+Socket-Server:
+    - Socket server é um event emmiter, ou seja, atráves dele é possível encadear handlers para certos eventos, como recebimento de nova conexão, mensagem e etc, e após iso realizar alguma ação.
+
+Testar o echo-server(servidor que a única função é devolver o usuário aquilo que lhe foi enviado):
+    - Para testar ele basta digitar telnet 127.0.0.1 8000 para realizar a conexão e para enviar alguma mensagem basta digitar a mensagem e clicar enter
