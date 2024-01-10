@@ -1,1 +1,3 @@
+https://www.youtube.com/watch?v=mJFbYHYxSDg&t=12s : ReactPHP Tutorial #1: Event Loop And Timers
 Toda aplicação com reactphp consiste em 3 etapas, criar um eventLoop, configurar o comportamento dele e rodar ele explicitamente
+Reactphp roda assincronamente em 1 thread, o que por consequencia, faz com que callbacks que executem funções ou algum código que trave um thread, por consequência, ira travar os outros callbacks
