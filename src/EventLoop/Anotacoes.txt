@@ -1,0 +1,1 @@
+Toda aplicação com reactphp consiste em 3 etapas, criar um eventLoop, configurar o comportamento dele e rodar ele explicitamente
