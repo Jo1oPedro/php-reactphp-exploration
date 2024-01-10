@@ -12,6 +12,7 @@
         }
     ],
     "require": {
-        "react/event-loop": "1.4.0"
+        "react/event-loop": "1.4.0",
+        "react/stream": "1.3.0"
     }
 }

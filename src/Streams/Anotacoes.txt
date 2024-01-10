@@ -1,0 +1,17 @@
+Streams:
+    - São o basico de I/O do reactphp
+    - Permitem processo por chunks(pedaços)
+    - São muito eficientes em desempenho e consume de memória
+    - Todos streams são implementados como event emitters, ou seja, são capazes de realizar algo quando recebem um dado. Logo, podemos definir handlers a esses event emitters pra tratar esses eventos
+Tipos de stream:
+    - Existem 3 tipos de stream no reactphp:
+        - Readable(exemplo: STDIN)
+        - Writable(exemplo: STDOUT)
+        - Duplex(exemplo: TCP SOCKET)
+Método pipe:
+    - Permite realizar o processo através de diversos callbacks através do ThroughStream, encaminhando um readable stream até a ponta que é um writablestream.
+
+
+Para rodar o readable.php com uma string é possível executar o comando: echo 'Hello world' | php readable.php
+Para rodar o readable.php com um arquivo é possível executar o comando: cat bigFile.txt | php readable.php
+Para rodar o readable.php com uma string é possível executar o comando: echo 'Hello world' | php writable.php
