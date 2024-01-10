@@ -1,0 +1,17 @@
+{
+    "name": "reactphp/app",
+    "autoload": {
+        "psr-4": {
+            "Reactphp\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jo1oPedro",
+            "email": "joao.pedreira@estudante.ufjf.br"
+        }
+    ],
+    "require": {
+        "react/event-loop": "1.4.0"
+    }
+}
