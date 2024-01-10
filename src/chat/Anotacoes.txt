@@ -1,3 +1,6 @@
+ReactPHP Tutorial #4: Simple Chat With Sockets - Server:
+https://www.youtube.com/watch?v=xv1_IhT-kiM&list=PLKIEFFgNQYpVmUAKUjT_BRYYOdMHwGt0v&index=4
+
 Socket-Server:
     - Socket server é um event emmiter, ou seja, atráves dele é possível encadear handlers para certos eventos, como recebimento de nova conexão, mensagem e etc, e após iso realizar alguma ação.
 
