@@ -1,0 +1,3 @@
+Middleware adapter para o reactphp:
+    - É possível utilizar um middleware adapter no reactphp: https://github.com/friends-of-reactphp/http-middleware-psr15-adapter
+    - Esse middleware permite com que possamos utilizar middlewares já prontos sem complicação. Lista de psr15-middlewares já prontos: https://github.com/middlewares/psr15-middlewares
