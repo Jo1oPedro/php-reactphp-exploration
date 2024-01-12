@@ -1,0 +1,9 @@
+Connections:
+    - Por baixo dos panos, uma connection é uma duplex stream, capaz de ler e escrever dados
+
+Piping:
+    - A ação de ler dados de um stream e escrever em outro stream recebe o nome de piping: exemplo, ler de um ReadableResourceStream e escrever em um duplexStream.
+    Por exemplo: /*$input->on('data', function ($data) use ($connection) {
+                     $connection->write($data);
+                 });*/ Esse evento comentado pode ser reduzido para um pipe onde a connection recebera a escrita
+                 $input->pipe($connection);
